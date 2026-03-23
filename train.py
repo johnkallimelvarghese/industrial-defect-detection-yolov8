@@ -1,6 +1,6 @@
 from ultralytics import YOLO
 
-model = YOLO(r'/Users/john.jr/Documents/TCS/git repo1/runs/detect/train/weights/best.pt')
+model = YOLO('yolov8n.pt')
 
 model.train(
     data=r"/Users/john.jr/Documents/TCS/git repo1/dataset/dataset.yaml",
