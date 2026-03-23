@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 
 # Load your newly trained model
-model = YOLO(r"/Users/john.jr/Documents/TCS/git repo1/runs/detect/train3/weights/best.pt")
+model = YOLO(r"runs/detect/train3/weights/best.pt")
 
 # Run inference
 results = model.predict(
